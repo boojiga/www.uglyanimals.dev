@@ -1,0 +1,55 @@
+== Changelog ==
+
+= 1.4 =
+* Added German translation de_DE.po and de_DE.mo
+* Updated responsive menu js (jquery.sidr.js)
+
+= 1.3 =
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Bug Fixed: broken link for upgrade to pro button ( Reported by Brenda Evans )
+
+= 1.2.3 =
+* Bug Fixed: Breadcrumb css issue in IE 11
+* Removed panel for featured slider for WordPress version greater than 4.2
+* Updated Customizer active callback scripts (previously handled by jQuery)
+
+= 1.2 =
+* Added French translation fr_FR.po and fr_FR.mo
+
+= 1.1 =
+* Bug Fixed: Changed esc_attr_e to echo esc_attr in searchform.php
+* Bug Fixed: Header image issue in Mobile devices ( Reported by flypig )
+* Compatible with WordPress 4.3
+* Removed support for WordPress version less than 4.1
+* Updated codes to comply with deprecating PHP4 style constructors in WordPress 4.3
+* Updated text-domain
+
+= 1.0 =
+* Added: Missing keywords esc_attr_x:1,2c in .pot file
+* Updated: Theme Description and corrected link in readme.txt
+* Bug Fixed: Page header overlapping ( Reported by Jeff )
+* Bug Fixed: Replaced color for customizer
+** Light: Background color from #000000 to #ffffff
+** Dark: Background color from #000000 to #202020
+** Dark: Header Text color from #dddddd to #bebebe
+
+= 0.4 =
+* Changed screenshot
+
+= 0.3 =
+* Bug Fixed: Escaped missing options in slider, social icons and breadcrumb implementation
+* Changed the link for html5shiv in readme file
+* Made strings in demo featured content and slider translatable
+* Optimized Customizer Scripts
+* Removed unnecessary codes and bundled image file
+* Renamed Catchcatchadaptive to Catchadaptive
+
+= 0.2 =
+* Official release at CatchThemes.com
+* Bug Fixed: Color Scheme 
+* Bug Fixed: Slider control font size
+* Bug Fixed: Page slider show excerpt option not working
+* Bug Fixed: Infinite Scroll issue with masonry
+
+= 0.1 =
+* Initial Release =
