@@ -4,18 +4,6 @@
  *
  */
 get_header(); ?>
-
-<!--Display custom post types as page begin-->
-			<?php $args = array(
-		 	'post_type'=> 'mammal',
-		 	'orderby'=> 'title',
-		 	'order'=>'ASC',
-		 	'showposts'=>'300'
-		 	); 
-			$mammal = new WP_Query($args);	
-
-			?>
-			<!--End of display custom post types-->
             
 		<div id="content">
 			<div class="container">
@@ -37,6 +25,28 @@ get_header(); ?>
 								<?php while (have_posts()) : the_post(); ?>
 									<?php get_template_part( 'content', 'posts');  ?>								
 								<?php endwhile; ?>
+                                
+                         <?php 
+                         
+                        //Define your custom post type name in the arguments
+                        $args = array('post_type' => 'mammal');
+                         
+                        //Define the loop based on arguments
+                        $loop = new WP_Query( $args );
+                         
+                        //Display the contents
+                        while ( $loop->have_posts() ) : $loop->the_post();
+                        ?>
+                        
+                        <h3 class="entry-title"><?php the_title(); ?></h3>
+                        <div class="entry-content">
+                        <?php the_content(); ?>
+                        <p class="entry-content"> <?php echo types_render_field("photo", array()); ?> </p>
+                        <p class="entry-content"> <?php echo types_render_field("description", array()); ?> </p>
+                        <p class="entry-content"> <?php echo types_render_field("scale", array()); ?> </p>
+                        </div>
+                        <?php endwhile;?>
+                                
 								<hr class="separe" />
 								<span class="prev"><?php next_posts_link(__('Previous Posts', 'honma')) ?></span>
 								<span class="next"><?php previous_posts_link(__('Next posts', 'honma')) ?></span>
