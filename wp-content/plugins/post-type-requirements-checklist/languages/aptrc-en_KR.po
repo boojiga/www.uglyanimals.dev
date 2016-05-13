@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Requirements Checklist\n"
 "POT-Creation-Date: 2015-04-20 00:14-0800\n"
-"PO-Revision-Date: 2016-05-06 14:06-0700\n"
+"PO-Revision-Date: 2016-05-06 14:01-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,8 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Language: en_US\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -22,27 +23,27 @@ msgstr ""
 #: admin/class-post-type-requirements-checklist-admin.php:120
 #: admin/class-post-type-requirements-checklist-admin.php:203
 msgid "Requirements Checklist"
-msgstr "Le Requirement Checklist"
+msgstr "요구 사항 체크리스트"
 
 #: admin/class-post-type-requirements-checklist-admin.php:146
 msgid "Settings"
-msgstr "Le Settings"
+msgstr "설정"
 
 #: admin/class-post-type-requirements-checklist-admin.php:214
 #: admin/class-post-type-requirements-checklist-admin.php:760
 #: admin/includes/settings.php:111
 msgid "Title"
-msgstr "Le title"
+msgstr "표제"
 
 #: admin/class-post-type-requirements-checklist-admin.php:256
 #: admin/includes/settings.php:123
 msgid "WYSIWYG Editor"
-msgstr "Le Settings"
+msgstr ""
 
 #: admin/class-post-type-requirements-checklist-admin.php:294
 #: admin/includes/settings.php:135
 msgid "Featured Image"
-msgstr "Le FEATURED Image"
+msgstr ""
 
 #: admin/class-post-type-requirements-checklist-admin.php:336
 #: admin/includes/settings.php:147

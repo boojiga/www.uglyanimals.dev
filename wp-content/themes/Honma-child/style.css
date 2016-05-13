@@ -16,3 +16,10 @@
 {
 	background-color: #E6CBE8;
 }
+
+.page_title
+{
+background-image: url(images/ostrich_closeup.jpg);	
+background-size: cover;
+background-repeat: no-repeat;
+}

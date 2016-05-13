@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying pages for fish.
  *
  * @package Honma
  */
@@ -22,6 +22,11 @@
 										<?php the_content(); ?>
 										<p class="meta_tags"><?php the_tags(); ?></p>
 										<p><?php posts_nav_link(); ?></p>
+                                        
+                                        <p class="entry-content"> <?php echo types_render_field("photo", array()); ?> </p>
+                        <p class="entry-content"> <?php echo types_render_field("description", array()); ?> </p>
+                        <p class="entry-content"> <?php echo types_render_field("scale", array()); ?> </p>
+                                        
 									</div>
 									<?php honma_paginate_page(); ?> 								
 									<div class="clear"></div>
